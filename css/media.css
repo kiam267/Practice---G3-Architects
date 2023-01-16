@@ -1,0 +1,163 @@
+@media screen and (max-width: 1024px) {
+  .button {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+
+    .nevigation {
+    justify-content: center !important;
+  }
+  .nevigation__header {
+    font-size: 0.7rem;
+  }
+  .nevigation__link {
+    font-size: 0.4rem;
+  }
+  /* common start */
+
+  :root {
+    --font_size: 2rem;
+  }
+
+  .text__header {
+    font-size: var(--font_size);
+  }
+  .text__pra {
+    width: 100%;
+  }
+
+  .enjoy__pra {
+    width: 100%;
+  }
+  .experience {
+    margin-left: 10px;
+  }
+  .resume {
+    width: 100%;
+  }
+  .features {
+    margin-left: 10px;
+  }
+  .features__img {
+    margin-left: 0px;
+    z-index: -1;
+  }
+  .f__img {
+    height: 900px;
+    width: 100%;
+  }
+  .facts {
+    margin-left: 30px;
+  }
+  .facts__icon {
+    width: 140px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .comon__header {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
+  .main__header {
+    font-size: 2rem;
+  }
+  .main__pra {
+    font-size: 0.6rem;
+  }
+  .button {
+    width: 60%;
+    font-size: 0.7rem;
+  }
+  .features {
+    display: block;
+    width: 96%;
+    flex-direction: column;
+  }
+  .image {
+    margin-left: 0px;
+    width: 80%;
+  }
+  .text {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .text__header {
+    font-size: 1.8rem;
+  }
+  .text__pra {
+    width: 80%;
+    font-size: 0.7;
+  }
+  .text__button {
+    font-size: 0.7 rem;
+  }
+
+  .experience {
+    width: 90%;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    flex-direction: column-reverse;
+  }
+  .features__enjoy {
+    margin-top: 20px;
+    width: 90%;
+  }
+  .enjoy__header {
+    font-size: 1.8rem;
+  }
+
+  .features__img {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .minichat {
+    width: 150px;
+
+    margin-left: -10px;
+
+    height: 100px;
+  }
+  .minichat__header {
+    font-size: 1.8rem;
+  }
+  .facts {
+    margin-left: 50px;
+  }
+  .icon {
+    gap: 10px;
+  }
+
+  .facts__icon {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .fs__img {
+    padding: 10px 0 0 0;
+  }
+  .fs__header {
+    padding: 2px;
+    font-size: 1rem;
+  }
+  .fs__pra {
+    text-align: center;
+    color: var(--color);
+    font-size: 0.8rem;
+  }
+  .sp__img {
+    padding: 10px;
+    width: 60px;
+    filter: grayscale(100%);
+  }
+  .copy__p {
+    font-size: 0.6rem;
+  }
+}
